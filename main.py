@@ -26,7 +26,7 @@ def order(e):
     # total
     total = subtotal + vat
 
-    # update with currency (used ai)
+    # update currency
     document.getElementById("subtotal").innerText = f"₱{subtotal}"
     document.getElementById("vat").innerText = f"₱{vat}"
     document.getElementById("total").innerText = f"₱{total}"
